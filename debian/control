@@ -1,0 +1,12 @@
+Source: ros-groovy-map-msgs
+Section: misc
+Priority: extra
+Maintainer: Stéphane Magnenat <stephane@magnenat.net>
+Build-Depends: debhelper (>= 7.0.50~), ros-groovy-catkin, ros-groovy-message-generation, ros-groovy-nav-msgs, ros-groovy-sensor-msgs, ros-groovy-std-msgs
+Homepage: http://ros.org/wiki/map_msgs
+Standards-Version: 3.9.2
+
+Package: ros-groovy-map-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-groovy-message-runtime, ros-groovy-nav-msgs, ros-groovy-sensor-msgs, ros-groovy-std-msgs
+Description: This package defines messages commonly used in mapping packages.
